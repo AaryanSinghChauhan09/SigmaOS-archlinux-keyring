@@ -3,7 +3,7 @@ name = "SigmaOS-archlinux-keyring"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "archlinux-keyring component"
+description = "SigmaOS component repository"
 upstream = []
 
 [contract]
