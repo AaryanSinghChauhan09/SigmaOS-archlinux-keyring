@@ -4,13 +4,13 @@ tier = 2
 stability = "beta"
 language = "rust"
 description = "SigmaOS component repository"
-upstream = []
+upstream = ["https://github.com/archlinux/archlinux-keyring"]
 
 [contract]
-provides = ["component"]
+provides = ["keyring-model", "pacman-key-semantics", "sig-verify"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
+test_evidence = "cargo test: 9 tests pass (keyring ops, trust, verify)"
 next_milestone = "Hardware and runtime integration"

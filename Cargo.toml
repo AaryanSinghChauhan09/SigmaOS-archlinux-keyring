@@ -9,3 +9,9 @@ license = "MIT OR Apache-2.0"
 [lib]
 name = "sigmaos_archlinux_keyring"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
+tempfile = "3"
